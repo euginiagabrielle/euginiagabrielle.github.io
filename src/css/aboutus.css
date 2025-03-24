@@ -1,0 +1,71 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.about-us {
+    margin: 0px 50px 30px 50px;
+    font-size: large;
+}
+
+.about-us h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.about-us img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    text-align: justify;
+    font-size: medium;
+}
+
+.contact-us {
+    margin: 0px 50px 0px 50px;
+    padding-bottom: 30px;
+}
+
+.contact-us h4 {
+    font-weight: bold;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px;
+}
+
+.phone span {
+    font-size: large;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 10px;
+}
+
+.instagram span {
+    font-size: large;
+}
