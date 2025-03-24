@@ -34,12 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
               card.classList.add('card');
               card.style.width = "18rem";
               card.innerHTML = `
-                  <div class="card-body text-center">
+                  <div class="card-body">
                       <h5 class="card-title">${post.title}</h5>
                       <p class="card-text">${post.body}</p>
                   </div>
                   <hr>
-                  <p class="post-id text-center">Post ID: ${post.id}</p>
+                  <p class="post-id">Post ID: ${post.id}</p>
               `;
               container.appendChild(card);
           });
