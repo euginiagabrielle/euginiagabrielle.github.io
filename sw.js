@@ -62,8 +62,6 @@ self.addEventListener('fetch', function (event) {
                         .then(function(cache) {
                             if (event.request.headers.get('accept').includes('text/html')) {
                                 return cache.match('/offline.html');
-                            // } else {
-                            //     return new Response("Offline. Resource not available.", { status: 503 });
                             }
                         });
                     }
