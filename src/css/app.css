@@ -51,3 +51,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
+.post-id {
+  margin: 10px;
+}
